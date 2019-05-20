@@ -5,3 +5,5 @@ method1 a b
 
 method2 :: [String] -> [String]
 method2 = [a | a <- (method1 a (length a))]
+
+extraMethod a b = a + b
